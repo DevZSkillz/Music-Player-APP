@@ -1,4 +1,3 @@
-/* Resetting default margin and padding */
 html,
 body {
   margin: 0;
@@ -8,22 +7,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Background blur effect */
 .backgroundBlur {
-  background-image: url("./images/song1.jpg");
+  background-image: url("images/song1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 100%;
-  filter: blur(7px); /* Adding blur effect */
+  filter: blur(7px);
 }
 
-/* Main container styling */
 .container {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centering horizontally and vertically */
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   color: white;
@@ -32,26 +29,20 @@ body {
   flex-direction: column;
 }
 
-/* Styling for song image */
 .container img {
   width: 330px;
   border-radius: 10px;
-  /* Adding shadow effect */
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.247);
 }
 
-/* Styling for song image container */
 #songImg {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-/* Player section styling */
 .player {
-  /* Semi-transparent black background */
   background-color: rgba(0, 0, 0, 0.533);
-  /* Centering horizontally with some margin */
   width: 350px;
   margin: 20px auto;
   text-align: center;
@@ -59,26 +50,23 @@ body {
   border-radius: 20px;
 }
 
-/* Styling for progress bar */
 .progress-bar {
   width: 100%;
   height: 7px;
-  background-color: rgba(214, 214, 214, 0.525); /* Semi-transparent gray */
+  background-color: rgba(214, 214, 214, 0.525);
   position: relative;
   margin-top: 10px;
   border-radius: 10px;
   cursor: pointer;
 }
 
-/* Styling for progress bar indicator */
 .progress {
   border-radius: 10px;
   width: 0;
   height: 100%;
-  background-color: white; /* White color for progress indicator */
+  background-color: white;
 }
 
-/* Styling for play/pause button */
 #play-pause-button {
   color: #fff;
   border: none;
@@ -87,23 +75,19 @@ body {
   font-size: 16px;
 }
 
-/* Hiding the default audio player */
 #audioPlayer {
   display: none;
 }
 
-/* Styling for song title */
 #songTitle {
   font-weight: 600;
 }
 
-/* Styling for song artist */
 #songArtist {
   color: rgb(214, 214, 214);
   margin-top: -10px;
 }
 
-/* Styling for play/stop icons */
 .playStopIcons {
   display: flex;
   justify-content: center;
@@ -111,7 +95,6 @@ body {
   font-size: 35px;
 }
 
-/* Styling for player control buttons */
 .playerButtons {
   width: 70%;
   margin: 0 auto;
@@ -120,7 +103,6 @@ body {
   justify-content: space-around;
 }
 
-/* Styling for player control buttons */
 .playerButtons button {
   display: flex;
   justify-content: center;

@@ -78,6 +78,7 @@ audio.addEventListener("ended", () => {
 
 // Function to change the background image based on the current track
 function changeBackground(songIndex) {
+  const body = document.body;
   const song = audioFiles[songIndex];
   if (song) {
     backgroundBlur.style.backgroundImage = `url('${song.img}')`;
