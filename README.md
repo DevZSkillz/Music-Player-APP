@@ -1,5 +1,7 @@
 # Web Music Player Documentation
 
+![Screenshot 2024-04-30 150702](https://github.com/DevZSkillz/Music-Player-APP/assets/168499822/99fbceab-94a5-456d-8059-9b2651d65565)
+
 ## Overview
 
 This web-based music player application provides users with a convenient platform to listen to their favorite tracks. With intuitive controls, dynamic visual elements, and seamless navigation, users can enjoy an immersive listening experience.
