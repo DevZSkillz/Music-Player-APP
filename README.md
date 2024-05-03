@@ -38,3 +38,7 @@ This web-based music player application provides users with a convenient platfor
 ## Contributing
 
 Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve the application.
+
+## Link
+
+https://devzskillz.github.io/Music-Player-APP/
